@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezzetli-Tulis Resep</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style type="text/css">
+        body{
+            background-image: url(bg5.jpeg);
+            background-size: cover;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="header">
+    <h2 style="display: inline;list-style: none;padding: 15px;font-size: 15;color: white;position:static;"><a href="halamanutama.html" style="color: white;position:static;">Lezzetli</a></h2>
+    <input type="text" name="search"  placeholder="cari resep, bahan, pengguna"  style="box-sizing : border-box;width: 20%; padding: 
+    10px; font-size: 11pt;margin-bottom: 20px; border-radius: 20px;position:static;">
+    <a href="search.html"> <i class="fas fa-search" style="font-size:20px;padding-left:0; color: white; padding-top:30px;"></i></a>
+    <i class="fas fa-calendar-alt" style="font-size:20px;padding-left:300px;color:white;position:static;"></i>
+    <h4  style="display: inline;list-style: none; padding: 10px; font-size: 10;color:white;"><a href="reminder.html" style="color: white;position:static;">Pengingat</a></h4>
+    <i class="fas fa-bell" style="font-size:20px;padding-left:10px;color:white;position:static;"></i>
+    <h4 style="display: inline;list-style: none; padding: 10px; font-size: 10;color:white;position:static;"><a href="notifikasi.html" style="color: white;position:static;">Notifikasi</a></h4>
+    <i class="fas fa-plus-circle" style="font-size:20px;color:white;position:static;"></i>
+    <h4 style="display: inline;list-style: none; padding: 10px; font-size: 10;color: white;"><a href="tulis_resep.html" style="color: white;position:static;">Tulis Resep</a></h4>
+    <i class="fas fa-grip-lines-vertical" style="font-size:20px;color:white;position:static;"></i>
+    <i class="fas fa-user-circle" style="font-size:20px;color:white;position:static;"></i>
+    <h4 style="display: inline;list-style: none; padding: 10px; font-size: 10;color: white;"><a href="profil1.html" style="color: white;position:static;">Angelina</a></h4>
+</div><br><br><br>
+<div class="kotak_resep">
+    <div class="kotak_atas1" style="opacity: 0.6;"> <br><br><br>
+    <h3 class="tulisan_atas" style="opacity: 0.8;"> <b> Tambahkan Foto Resep </b> </h3>
+    <h5 class="tulisan_atas" style="opacity: 0.7;"> Foto hasil akhir masakanmu! </h5> </div>
+    <form name="myForm" action="resep.html" onsubmit="return validateForm()" method="post">
+        <div class="row">
+            <label class="col25"> Judul </label>
+            <input type="text" name="fjudul" id="judul" class="col75">
+        </div>
+        <div class="row">
+            <label class="col25"> Deskripsi </label>
+            <input type="text" name="fdeskripsi" id="deskripsi" class="col75">
+        </div>
+        <div class="row">
+            <label class="col25"> Bahan-Bahan </label>
+            <textarea id="bahan" name="fbahan" style="height:70px" class="col75"></textarea> 
+        </div>
+        <div class="row">
+            <label class="col25"> Langkah-langkah </label>
+            <textarea id="langkah" name="flangkah"  style="height:70px" class="col75"></textarea>     
+        </div><br><br>
+        
+        <div class="row">
+            <input type="submit" value="Simpan dan Tampilkan" id="simpan" class="submitresep">          
+            <input type="reset" name="reset" value="Hapus" id="Hapus" class="submitresephapus"> 
+        </div> 
+    </form>     
+    </div>
+    <script type="text/javascript" src="JS_tulisresep.js"></script>
+    <div class="gradasibawah">
+        <footer>
+            <nav>
+            <h>Temukan Kami : </h>
+            <a href="http://facebook.com/"> <i class="fab fa-facebook" style="color: navy;"> </i></a> |
+            <a href="http://twitter.com/"><i class="fab fa-twitter" style="color: blue;"></i></a> |
+            <a href="http://instagram.com"><i class="fab fa-instagram" style="color: black;"></i></a> |
+            <a href="http://youtube.com/"><i class="fab fa-youtube" style="color:black;"></i></a> 
+            </nav>
+         </footer>
+    </div>
+</body>
+</html>

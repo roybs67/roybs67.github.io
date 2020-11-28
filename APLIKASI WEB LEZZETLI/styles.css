@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    background: linear-gradient(red, orange);
+    padding: 25px;
+    top: 0;
+    position: fixed;
+}
+
+.header{
+    overflow: hidden;
+    background: linear-gradient(red, orange);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.isi_header{
+    margin-right: 0px;
+}
+
+header h2{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    font-size: 15;
+    color: white;
+}
+.gradasibawah{
+    bottom : 0;
+    background: linear-gradient(orange,red);
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*SIGN UP*/ 
+.kotak_Signup{
+    margin-top: 30px;
+    background-color: whitesmoke;
+	width: 350px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 2px 5px 1px #cfcfcf;
+    border-radius: 5px;
+	/*meletakkan form ke tengah*/
+	margin: 100px auto;
+    padding: 30px 20px;
+}
+.tulisan_Signup{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 11pt;
+    text-align: center;
+}
+
+.signup{
+	/*membuat lebar form penuh*/
+    box-sizing : border-box;
+    border: 2px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+h4{
+    text-align: center;
+    cursor: pointer;
+}
+
+.button{
+	background: linear-gradient(red, orange);
+    width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 1px #cfcfcf;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/*LOG IN*/ 
+.kotak_login{
+    background-color: whitesmoke;
+	width: 350px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 2px 5px 1px #cfcfcf;
+    border-radius: 5px;
+	/*meletakkan form ke tengah*/
+	margin: 100px auto;
+    padding: 30px 20px;
+}
+.tulisan_login{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login{
+	/*membuat lebar form penuh*/
+    box-sizing : border-box;
+    border: 2px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+a{
+    color: blue;
+	text-decoration: none;
+}
+
+/*EDIT PROFIL*/
+.kotak_editp{
+    background-color: whitesmoke;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 2px 5px 1px #cfcfcf;
+    border-radius: 5px;
+    /*meletakkan form ke tengah*/
+	margin: 100px auto;
+    padding: 40px 30px;
+}
+
+.avatar img{
+    width : 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.nama{
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 30px;
+}
+.nama p{
+    color: blue;
+    font-size: 15px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25{
+    margin-left: 30PX;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  label {
+    text-align: left;
+}
+.submit{
+    background-color: rgb(204, 204, 204);
+    box-shadow: 0px 2px 2px 1px #cfcfcf;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 49px;
+}
+.submit:hover{
+    background: linear-gradient(red, orange);
+}
+
+/*TULIS RESEP*/
+.kotak_resep{
+    background-color: whitesmoke;
+    width: 850px;
+    height: 700px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 2px 5px 1px #cfcfcf;
+    border-radius: 5px;
+	/*meletakkan form ke tengah*/
+	margin: 100px auto;
+    padding: 30px 20px;
+}
+.kotak_atas1 {
+    color:white;
+    background-color: rgb(228, 228, 228);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    object-position: top;
+    width: 800px;
+    height: 210px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+} 
+.tulisan_atas{
+    color: rgb(87, 87, 87);
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col25{
+    float: left;
+    width: 19%;
+    padding-top: 15px;
+    margin-left: 17px;
+}
+.col75 {
+    float: left;
+    width: 75%;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+label {
+    text-align: left;
+}
+
+.submitresep{
+    background-color: rgb(184, 184, 184);
+    box-shadow: 0px 2px 2px 1px #cfcfcf;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 35px;
+}
+.submitresep:hover{
+    background: linear-gradient(red, orange);
+}
+.submitresephapus{
+    background-color: rgb(184, 184, 184);
+    box-shadow: 0px 2px 2px 1px #cfcfcf;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 15px;
+}
+.submitresephapus:hover{
+    background: linear-gradient(red, orange);
+}
+
+/*PENGATURAN*/
+.kotak_pengaturan{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 450px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 2px 5px 1px #cfcfcf;
+    border-radius: 5px;
+	/*meletakkan form ke tengah*/
+	margin: 100px auto;
+    padding: 30px 20px;
+}
+.tulisan_pengaturan{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.btn-group button {
+    background-color: whitesmoke; /* whitesmoke background */
+    border: 1px solid grey; /* gray border */
+    color: black; /* black text */
+    padding: 15px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%;
+    height: 20%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background: linear-gradient(red, orange);
+    opacity: 0.8;
+  }
+  .exit{
+    text-align: center;
+    background-color:  rgb(184, 184, 184);
+    width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 1px #cfcfcf;
+    border-radius: 5px;
+    color: white;
+}
+
+.exit:hover {
+    background: linear-gradient(red, orange);
+    opacity: 0.8;
+}
+
+/*NOTIFIKASI*/
+.kotak_notifikasi{
+    background-color: white;
+    width: 1000px;
+    height: 700px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 2px 5px 1px #cfcfcf;
+    border-radius: 5px;
+	margin: 100px auto;
+    padding: 30px 20px;
+}
+.kotak_atas {
+    color:white;
+    background-color: rgb(221, 221, 221);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    object-position: top;
+    width: 998px;
+    height: 200px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}  
+.tulisan1 {
+    color: rgb(112, 112, 112); 
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 60px;
+}
+.kotak_bawah {
+    color:white;
+    background-color: rgb(250, 250, 250);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    object-position: top;
+    width: 998px;
+    height: 302px;
+    padding-top: 20%;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}  
+.tulisan2 {
+    color: rgb(189, 189, 189); 
+    text-align: center;
+    font-family: Roboto, 'Open Sans', sans-serif;
+    margin-top: 50px;
+}

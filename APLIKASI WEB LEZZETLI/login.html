@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezzetli-Masuk</title>
+    <link rel="stylesheet" href="styles.css">
+        <style type="text/css">
+    body{
+        background-image: url(bg1.jpeg);
+        background-size: cover;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Lezzetli</h2>
+    </header><br><br><br>
+    <div class="kotak_login">
+		<h2 class="tulisan_login">Login</h2><br>
+		<form name="myForm" action="halamanutama.html" onsubmit="return validateForm()" method="post">
+            <input type="text" name="fname" id="email" class="login" placeholder="Your Email">
+			<input type="password" name="fpw" id="password" class="login" placeholder="Password"><br><br>
+            <button type="submit"  class="button"> Log In</button>
+            <h4>Don’t have an account?  <a href="signup.html">Click Here </a></h4>
+		</form>	
+    </div>
+    <script type="text/javascript" src="JS_login.js"></script>
+</body>
+</html>

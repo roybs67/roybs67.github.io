@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezzetli-Daftar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+    body{
+        background-image: url(bg2.jpeg);
+        background-size: cover;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Lezzetli</h2>
+    </header><br>
+
+    <div class="kotak_Signup">
+		<h2 class="tulisan_Signup">Sign Up</h2><br>
+
+		<form>
+			<input type="text" name="username" id="username" class="signup" placeholder="Your Name">
+            <input type="text" name="email" id="email" class="signup" placeholder="Your Email">
+			<input type="password" name="password" id="password" class="signup" placeholder="Password">
+			<input type="password" name="password" id="rpword" class="signup" placeholder="Repeat Your Password"><br><br>
+            <button type="submit" class="button" onclick="inputData()" > <a href="login.html" style="color:white"></a>Sign Up</button>
+
+			<center>
+                <h4>Have already an account? <a href="login.html">Login Here </a></h4>
+			</center>
+		</form>	
+    </div>
+    <script type="text/javascript" src="JS_signup.js"></script>
+</body>
+</html>
